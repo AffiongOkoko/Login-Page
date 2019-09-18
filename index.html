@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +12,18 @@
     
     <center>
             <div id="center">
-                    <form action="#" style="max-width:450px;margin:auto" id="main">
+                    <form action="#" style="max-width:450px;margin:auto" id="main" method="POST">
                         <h3>User Log In</h3>
             
                        <div id="grow">
                         <div>
                             <i class="fa fa-user icon" id="icn"></i>
-                            <input type="text" name="Username" class="user user-input" placeholder="Username" required>
+                            <input type="text" name="Username" class="user user-input" placeholder="Username" required maxlength="20">
                            </div>
                            
                            <div>
                                 <i class="fa fa-key icon"></i>
-                            <input type="password" name="password" class="user user-input" placeholder="Password" required>
+                            <input type="password" name="password" class="user user-input" placeholder="Password" required minlength="8" maxlength="8">
                            </div>
                        </div>
 
@@ -40,7 +40,7 @@
                     </div>
                     <div class="but-m">
                         New Here?
-                        <a href="#"  class="reg"> <b>Register</b></a>
+                        <a href="register.html"  class="reg"> <b>Register</b></a>
                      </div>
                     </form>
             </div>
