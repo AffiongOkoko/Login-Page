@@ -14,21 +14,22 @@ h3{
 .fill{
     margin-bottom: 30px;
     font-size: 15px;
-    width: 25.6em; 
-    padding: 10px 25px;
+    width: 100%; 
+    padding: 10px 0px 10px 30px;
     border: none;
     border-radius: 15px;
 }
 #main{
-    padding: 2em;
+    padding: 3em 5em 3em 3em;
     background:  linear-gradient(to bottom right, rgba(117, 10, 10, 0.548), rgba(255, 255, 255, 0.849));
     border-radius: 20px;
-    margin-top: 6em;
+    margin-top: 5em;
 }
 #submit{
     color: #ffffff;
     background: maroon;
-    padding: 10px 185px;
+    padding: 10px;
+    width: 106%;
     margin-bottom: 30px;
     font-size: 15px;
     border: none;
